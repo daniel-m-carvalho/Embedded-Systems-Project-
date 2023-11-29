@@ -1,1 +1,1 @@
-# Embedded-Systems-Project-
+# Cabinet management system with RFID lock
