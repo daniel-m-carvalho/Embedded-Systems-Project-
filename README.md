@@ -47,5 +47,5 @@ This structured approach aids in organizing the codebase, fostering modularity, 
 
 Instituto Superior de Engenharia de Lisboa<br>
 BSc in Computer Science and Engineering<br>
-Programming in Mobile Devices<br>
+Embedded Systems<br>
 Winter Semester of 2023/2024
