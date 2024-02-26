@@ -22,4 +22,23 @@ The system should display on the LCD screen the information related to the calen
 
 The system enters this operating mode when the button is pressed twice in a row (double click) and should allow adding or removing authorized cards, adjusting the calendar and clock, as well as viewing the records stored in the non-volatile memory of the microcontroller. In this operating mode, the rotary button allows navigation through the menus, and the pressure button, when pressed, accesses the selected menu. During the adjustment of the calendar and clock, the rotary button increments or decrements the value of the selected field. The pressure button, when pressed, changes the field to adjust or returns to the menu if the field is the last one, confirming its value. During the addition of a card, the system awaits the reading of a card, displaying its identifier on the screen. The pressure button, when pressed, adds the card to the system and returns to the menu. During the removal of a card, the rotary button allows the visualization of existing cards. The pressure button, when pressed, removes the visible card and returns to the menu. During the visualization of stored records, the rotary button allows the visualization of the next or previous record. The pressure button, when pressed, cancels the visualization and returns to the menu.
 
-**Note:** Although the implementation is intended to use the flash memory of the controller to store data, the project is not currently utilizing this feature.
+## Structure of the Work: CMSIS_CORE_LPC17xx -> HAL -> DRIVERS -> MFRC522 -> Project
+
+The project's architecture follows a structured approach, progressing through layers that facilitate development and integration:
+
+1. **CMSIS_CORE_LPC17xx**: At the foundational level, this layer implements the Cortex Microcontroller Software Interface Standard (CMSIS) for the LPC17xx series microcontrollers. It establishes a standardized hardware abstraction layer, essential for interfacing with the ARM Cortex-M processor core.
+
+2. **HAL (Hardware Abstraction Layer)**: Building upon the CMSIS_CORE_LPC17xx, this layer provides higher-level abstractions to access various hardware peripherals and functionalities of the LPC1769 microcontroller. It simplifies the development process by offering standardized interfaces and functions.
+
+3. **DRIVERS**: This layer incorporates specific device drivers necessary for interacting with external hardware components. Within this layer lies the driver for the MFRC522 chip, which is a crucial component utilized for contactless card reading in the project.
+
+4. **MFRC522**: This submodule focuses on the functionalities specific to the MFRC522 chip. It includes tasks such as initializing the chip, managing communication protocols, and facilitating data transfer with RFID tags.
+
+5. **Project**: Serving as the top-level layer, this segment encompasses the actual application logic and integration of various components. Leveraging functionalities provided by lower layers, it implements the desired features, such as the management of the storage cabinet for depositing and retrieving objects using RFID technology.
+
+This structured approach aids in organizing the codebase, fostering modularity, and easing the development and maintenance processes of the storage management system with RFID lock.
+
+
+**Note:** 
+- Although the implementation is intended to use the flash memory of the controller to store data, the project is not currently utilizing this feature.
+- Additionally, it's worth mentioning that the modules CMSIS_CORE_LPC17xx and MFRC522 were provided by the teacher.
