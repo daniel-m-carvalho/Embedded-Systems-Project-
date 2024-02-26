@@ -1,0 +1,5 @@
+../src/mfrc522_func.c:22:6:MFRC522_PreInit	8	static
+../src/mfrc522_func.c:32:6:MFRC522_Reset	16	static
+../src/mfrc522_func.c:45:6:MFRC522_Select	16	static
+../src/mfrc522_func.c:57:9:MFRC522_Transfer	16	static
+../src/mfrc522_func.c:63:6:MFRC522_WaitMs	16	static

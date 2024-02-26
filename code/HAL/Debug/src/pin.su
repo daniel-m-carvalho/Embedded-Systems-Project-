@@ -1,0 +1,7 @@
+../src/pin.c:16:6:PIN_dir	24	static
+../src/pin.c:24:6:PIN_set	24	static
+../src/pin.c:32:6:PIN_clear	24	static
+../src/pin.c:40:5:PIN_isOn	24	static
+../src/pin.c:48:6:PIN_write	16	static
+../src/pin.c:54:6:PIN_value	16	static
+../src/pin.c:59:5:PIN_ReadValues	32	static

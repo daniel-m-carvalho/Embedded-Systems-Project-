@@ -1,0 +1,7 @@
+../src/lists.c:14:6:LISTS_AddCard	96	dynamic
+../src/lists.c:30:6:LISTS_RemoveCard	96	dynamic
+../src/lists.c:47:6:LISTS_AddLog	112	dynamic
+../src/lists.c:66:6:LISTS_ConfirmCard	16	static
+../src/lists.c:76:6:LISTS_cardIsEqual	24	static
+../src/lists.c:85:6:LISTS_CreateMaintenance	48	static
+../src/lists.c:111:6:LISTS_CardExists	24	static

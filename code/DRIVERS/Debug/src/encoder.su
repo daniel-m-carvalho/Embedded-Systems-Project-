@@ -1,0 +1,5 @@
+../src/encoder.c:31:5:ReadValues	16	static
+../src/encoder.c:45:6:ENCODER_Handler	24	static
+../src/encoder.c:85:6:ENCODER_Init	16	static
+../src/encoder.c:93:5:ENCODER_GetValue	16	static
+../src/encoder.c:101:25:ENCODER_GetButton	4	static

@@ -1,0 +1,10 @@
+../src/project.c:48:6:PROJECT_Init	8	static
+../src/project.c:61:6:PROJECT_Start	24	static
+../src/project.c:78:6:PROJECT_Deposit	40	static
+../src/project.c:138:6:PROJECT_Collect	64	static
+../src/project.c:182:6:PROJECT_Maintenance	24	static
+../src/project.c:216:6:PROJECT_CalendarAndClock	24	static
+../src/project.c:385:6:PROJECT_AddCard	16	static
+../src/project.c:416:6:PROJECT_RemoveCard	24	static
+../src/project.c:452:6:PROJECT_SeeLogs	56	static
+../src/project.c:503:6:PROJECT_UpdateFlash	16	static

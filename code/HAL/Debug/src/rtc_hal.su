@@ -1,0 +1,3 @@
+../src/rtc_hal.c:26:6:RTC_HAL_init	4	static
+../src/rtc_hal.c:33:6:RTC_HAL_getvalue	16	static
+../src/rtc_hal.c:48:6:RTC_HAL_setvalue	16	static

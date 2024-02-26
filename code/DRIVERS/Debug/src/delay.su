@@ -1,0 +1,5 @@
+../src/delay.c:16:5:DELAY_Init	8	static
+../src/delay.c:21:6:DELAY_Milliseconds	24	static
+../src/delay.c:30:10:DELAY_GetElapsedMillis	16	static
+../src/delay.c:35:6:DELAY_StopwatchInit	8	static
+../src/delay.c:40:6:DELAY_Stopwatch	16	static

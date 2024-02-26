@@ -1,0 +1,2 @@
+../src/timer.c:22:6:TIMER_Init	4	static
+../src/timer.c:30:6:TIMER_WaitMicros	16	static

@@ -1,0 +1,7 @@
+C:\Daniel\Faculdade\Ano_3\Semestre_5\SE\sw\CMSIS_CORE_LPC17xx\inc/core_cm3.h:1323:22:NVIC_EnableIRQ	16	static
+C:\Daniel\Faculdade\Ano_3\Semestre_5\SE\sw\CMSIS_CORE_LPC17xx\inc/core_cm3.h:1335:22:NVIC_DisableIRQ	16	static
+../src/rit.c:20:6:RIT_SetHandler	16	static
+../src/rit.c:30:6:RIT_IRQHandler	8	static
+../src/rit.c:40:6:RIT_Start	8	static
+../src/rit.c:49:6:RIT_Stop	8	static
+../src/rit.c:55:6:RIT_Restart	4	static
