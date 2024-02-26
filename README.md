@@ -43,10 +43,9 @@ This structured approach aids in organizing the codebase, fostering modularity, 
 - Although the implementation is intended to use the flash memory of the controller to store data, the project is not currently utilizing this feature.
 - Additionally, it's worth mentioning that the modules CMSIS_CORE_LPC17xx and MFRC522 were provided by the teacher.
 
-Instituto Superior de Engenharia de Lisboa
+---
 
-BSc in Computer Science and Engineering
-
-Programming in Mobile Devices
-
+Instituto Superior de Engenharia de Lisboa<br>
+BSc in Computer Science and Engineering<br>
+Programming in Mobile Devices<br>
 Winter Semester of 2023/2024
