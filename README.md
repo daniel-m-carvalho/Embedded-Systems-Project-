@@ -39,6 +39,6 @@ The project's architecture follows a structured approach, progressing through la
 This structured approach aids in organizing the codebase, fostering modularity, and easing the development and maintenance processes of the storage management system with RFID lock.
 
 
-**Note:** 
+**Notes:** 
 - Although the implementation is intended to use the flash memory of the controller to store data, the project is not currently utilizing this feature.
 - Additionally, it's worth mentioning that the modules CMSIS_CORE_LPC17xx and MFRC522 were provided by the teacher.
